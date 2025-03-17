@@ -43,7 +43,6 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
-#include <sys/sysctl.h>
 #include <iostream>
 #include <dlfcn.h>
 #include <signal.h>
