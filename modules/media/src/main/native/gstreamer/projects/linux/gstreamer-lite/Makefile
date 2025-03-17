@@ -42,6 +42,7 @@ DIRLIST = gstreamer/gst \
 TARGET = $(BUILD_DIR)/lib$(BASE_NAME).so
 
 CFLAGS =-fPIC                   \
+        -fcommon                \
         -Wformat                \
         -Wextra                 \
         -Wformat-security       \
